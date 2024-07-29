@@ -1,0 +1,147 @@
+.job-list-container {
+  color: white;
+  border-radius: 10px;
+}
+
+.first-container {
+  display: flex;
+}
+.company-logo-image {
+  width: 50px;
+  height: 50px;
+}
+.title-and-star {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: white;
+  line-height: 0.3;
+}
+.star-image {
+  color: #fbbf24;
+  font-size: 13px;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.job-title {
+  font-size: 15px;
+}
+.company-rating {
+  font-size: 13px;
+  margin-left: 5px;
+}
+.left-container {
+  display: flex;
+  color: white;
+}
+.location,
+.employment {
+  margin-right: 10px;
+  display: flex;
+  justify-content: left;
+}
+
+.location-icon,
+.brief-icon {
+  width: 8px;
+  margin-right: 5px;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-name,
+.brief-name {
+  font-size: 11px;
+}
+.right-container {
+  color: white;
+}
+.package {
+  font-size: 15px;
+}
+.description-header {
+  font-size: 14px;
+}
+.last-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 13px;
+}
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-url {
+  text-decoration: none;
+  margin-right: 7px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+.company-url-and-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-item {
+  display: flex;
+  width: 200px;
+  margin: 20px;
+}
+.skill-list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.skill-image {
+  width: 30px;
+  height: 30px;
+}
+.skill-name {
+  font-size: 15px;
+}
+.skills-heading {
+  font-size: 15px;
+}
+.life-at-company-container {
+  display: flex;
+  justify-content: space-between;
+}
+.life-at-company-description {
+  width: 50%;
+}
+.life-at-company-image {
+  width: 40%;
+}
+.life-at-company-header {
+  font-size: 15px;
+}
+.life-at-company-description {
+  font-size: 14px;
+  line-height: 2;
+}
+.similar-job-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.similar-job-list {
+  background-color: #333;
+  width: 300px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+}
+.similar-jobs-header {
+  color: #fff;
+  font-size: 15px;
+}

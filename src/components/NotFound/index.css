@@ -1,0 +1,14 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #202020;
+  color: #fff;
+  font-family: 'Roboto';
+}
+.not-found-message {
+  color: #f1f5f9;
+  font-size: 15px;
+}

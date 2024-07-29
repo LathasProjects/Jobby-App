@@ -1,0 +1,32 @@
+* {
+  font-family: 'Roboto';
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.find-jobs-button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 30px;
+}
+.content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}

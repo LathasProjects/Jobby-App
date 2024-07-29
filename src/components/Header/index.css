@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  padding: 20px;
+}
+.website-logo-img {
+  width: 70%;
+  cursor: pointer;
+}
+.list-menu {
+  list-style-type: none;
+  display: flex;
+  color: white;
+}
+.list-item {
+  margin-right: 10px;
+}
+.list-item-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.logout-button {
+  background-color: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
